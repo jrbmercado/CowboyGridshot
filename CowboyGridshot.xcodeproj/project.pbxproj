@@ -440,6 +440,7 @@
 				DEVELOPMENT_TEAM = 6NSGWKMKUJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CowboyGridshot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cowboy Gridshot";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -468,6 +469,7 @@
 				DEVELOPMENT_TEAM = 6NSGWKMKUJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CowboyGridshot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cowboy Gridshot";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
