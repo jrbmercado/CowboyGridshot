@@ -1,7 +1,7 @@
 
 # Cowboy Gridshot
 
-A quick game to see who is the fastest duelist in the room, keep those fingers tappin' on the targets!
+A quick game to see who is the fastest duelist in the room. Keep those fingers tappin' on the targets, and earn the high score!
 
 ## Demo
 
