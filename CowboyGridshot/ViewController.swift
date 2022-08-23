@@ -16,11 +16,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var plus1Button: UIButton! // Button that increments the user's score by one
     
     var loadedHighScore = 0 // Default high score value is 0 if player has never set a high score before
-    var gameLengthInSeconds = 30 // Total amount of time a player has until the game is over
+    var gameLengthInSeconds = 10 // Total amount of time a player has until the game is over
     lazy var secondsRemaining = gameLengthInSeconds // Keeps track of time remaining on timer once the game has begun
     var countingTimer : Timer? // Counts down the time every second
     
     override func viewDidLoad() {
+        var startingTimeString = secondsToMinutesSeconds(seconds: gameLengthInSeconds)
+        timerText.text = makeTimeString(minutes: startingTimeString.0, seconds: startingTimeString.1)// Update Timer
+        
         playAgainButton.isHidden = true // Initially hide the replay button on first opening the app
         relocateButton() // Move plus one target to a valid playing area for device's screen
         
