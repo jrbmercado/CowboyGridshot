@@ -35,3 +35,6 @@ func saveHighScore(){
 ```
 
 This snippet of code was a breakthrough moment for me to learn how to retain information such as the high score count across multiple sessions. Even if the user exits and closes the app, the app will still be able to look in UserDefaults for a Int value stored with the "highScore" key to load the high score next time the user plays.
+
+## Contributing Authors
+- Angela Yu @angelabauer on GitHub
